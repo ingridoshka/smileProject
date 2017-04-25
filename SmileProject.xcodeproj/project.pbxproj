@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA2605EF1EAF8DB200459541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2605EE1EAF8DB200459541 /* AppDelegate.swift */; };
+		EA2605F11EAF8DB200459541 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2605F01EAF8DB200459541 /* ViewController.swift */; };
+		EA2605F41EAF8DB200459541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2605F21EAF8DB200459541 /* Main.storyboard */; };
+		EA2605F71EAF8DB200459541 /* SmileProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA2605F51EAF8DB200459541 /* SmileProject.xcdatamodeld */; };
+		EA2605F91EAF8DB200459541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2605F81EAF8DB200459541 /* Assets.xcassets */; };
+		EA2605FC1EAF8DB200459541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2605FA1EAF8DB200459541 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA2605EB1EAF8DB200459541 /* SmileProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmileProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2605EE1EAF8DB200459541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA2605F01EAF8DB200459541 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA2605F31EAF8DB200459541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA2605F61EAF8DB200459541 /* SmileProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmileProject.xcdatamodel; sourceTree = "<group>"; };
+		EA2605F81EAF8DB200459541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA2605FB1EAF8DB200459541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA2605FD1EAF8DB200459541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA2605E81EAF8DB200459541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA2605E21EAF8DB200459541 = {
+			isa = PBXGroup;
+			children = (
+				EA2605ED1EAF8DB200459541 /* SmileProject */,
+				EA2605EC1EAF8DB200459541 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA2605EC1EAF8DB200459541 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA2605EB1EAF8DB200459541 /* SmileProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA2605ED1EAF8DB200459541 /* SmileProject */ = {
+			isa = PBXGroup;
+			children = (
+				EA2605EE1EAF8DB200459541 /* AppDelegate.swift */,
+				EA2605F01EAF8DB200459541 /* ViewController.swift */,
+				EA2605F21EAF8DB200459541 /* Main.storyboard */,
+				EA2605F81EAF8DB200459541 /* Assets.xcassets */,
+				EA2605FA1EAF8DB200459541 /* LaunchScreen.storyboard */,
+				EA2605FD1EAF8DB200459541 /* Info.plist */,
+				EA2605F51EAF8DB200459541 /* SmileProject.xcdatamodeld */,
+			);
+			path = SmileProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA2605EA1EAF8DB200459541 /* SmileProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2606001EAF8DB200459541 /* Build configuration list for PBXNativeTarget "SmileProject" */;
+			buildPhases = (
+				EA2605E71EAF8DB200459541 /* Sources */,
+				EA2605E81EAF8DB200459541 /* Frameworks */,
+				EA2605E91EAF8DB200459541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmileProject;
+			productName = SmileProject;
+			productReference = EA2605EB1EAF8DB200459541 /* SmileProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA2605E31EAF8DB200459541 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "MacBook Retina 2014 256Gb";
+				TargetAttributes = {
+					EA2605EA1EAF8DB200459541 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EA2605E61EAF8DB200459541 /* Build configuration list for PBXProject "SmileProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA2605E21EAF8DB200459541;
+			productRefGroup = EA2605EC1EAF8DB200459541 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA2605EA1EAF8DB200459541 /* SmileProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA2605E91EAF8DB200459541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2605FC1EAF8DB200459541 /* LaunchScreen.storyboard in Resources */,
+				EA2605F91EAF8DB200459541 /* Assets.xcassets in Resources */,
+				EA2605F41EAF8DB200459541 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA2605E71EAF8DB200459541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2605F71EAF8DB200459541 /* SmileProject.xcdatamodeld in Sources */,
+				EA2605F11EAF8DB200459541 /* ViewController.swift in Sources */,
+				EA2605EF1EAF8DB200459541 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA2605F21EAF8DB200459541 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2605F31EAF8DB200459541 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA2605FA1EAF8DB200459541 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2605FB1EAF8DB200459541 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA2605FE1EAF8DB200459541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA2605FF1EAF8DB200459541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA2606011EAF8DB200459541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmileProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ingrida.SmileProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA2606021EAF8DB200459541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmileProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ingrida.SmileProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA2605E61EAF8DB200459541 /* Build configuration list for PBXProject "SmileProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2605FE1EAF8DB200459541 /* Debug */,
+				EA2605FF1EAF8DB200459541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA2606001EAF8DB200459541 /* Build configuration list for PBXNativeTarget "SmileProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2606011EAF8DB200459541 /* Debug */,
+				EA2606021EAF8DB200459541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA2605F51EAF8DB200459541 /* SmileProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA2605F61EAF8DB200459541 /* SmileProject.xcdatamodel */,
+			);
+			currentVersion = EA2605F61EAF8DB200459541 /* SmileProject.xcdatamodel */;
+			path = SmileProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EA2605E31EAF8DB200459541 /* Project object */;
+}
