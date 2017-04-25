@@ -18,7 +18,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var cryingButton: UIButton!
     @IBOutlet weak var cryingLabel: UILabel!
-    
     var clickcount = 0
     
     override func viewDidLoad() {
